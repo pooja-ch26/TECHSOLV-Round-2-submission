@@ -1,0 +1,373 @@
+@media only screen and (min-width:1030px) {
+
+    .menu {
+        padding-right: 2rem;
+    }
+
+    .sdpage {
+        height: 100vh;
+        width: 100%;
+        margin-top: 50vh;
+    }
+
+    .srchicon i {
+        font-size: 4vh;
+    }
+
+    .srchicon {
+        padding-left: 63rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .block {
+        font-size: 1.2rem;
+    }
+
+    .block p {
+        font-size: 0.8rem;
+    }
+
+    table span {
+        font-size: 0.7rem;
+    }
+
+    .rt li {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width:1030px) {
+    .main {
+        height: 15vh;
+    }
+
+    .logo {
+        padding-left: 7vw;
+    }
+
+    .ftpage {
+        padding: 2rem;
+    }
+
+    .srchicon {
+        padding-left: 55rem;
+    }
+
+    .para {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        max-width: 50%;
+    }
+
+    table {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .sdpage img {
+        width: 100%;
+    }
+
+    .tdpage {
+        flex-direction: row;
+    }
+
+    .left {
+        padding: 2rem;
+        max-width: 50%;
+    }
+
+    .fg {
+        margin-left: 3.5vw;
+        margin-top: -25vh;
+    }
+
+    .fhpage {
+        width: 105%;
+    }
+
+    .fhpage img {
+        margin-top: 10vh;
+    }
+
+    .fhpage p {
+        margin-top: 13vh;
+        margin-left: 10vh;
+    }
+
+    .rt {
+        margin-top: -4%;
+        margin-left: 47%;
+    }
+
+    .footer {
+        margin: 0vh 35%;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width:770px) {
+    .logo {
+        padding-left: 8vw;
+        height: 5vh;
+        width: 36vw;
+    }
+
+    .menu {
+        font-size: 0.8rem;
+        justify-content: space-between;
+        padding-left: 12vw;
+        padding-right: 6vw;
+    }
+
+    .spcl {
+        padding-right: 2rem;
+    }
+
+    .srchicon {
+        padding-left: 42rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+        margin-left: 2vw;
+        padding-right: 12vw;
+    }
+
+    table span {
+        margin-left: 0.8rem;
+        color: darkgray;
+        font-size: 0.6rem;
+    }
+
+    button {
+        height: 2.4rem;
+        width: 7rem;
+        font-size: 1rem;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .sdpage {
+        height: 80vh;
+        margin-top: 45vh;
+    }
+
+    .tdpage {
+        margin: 0;
+    }
+
+    .left {
+        padding: 3rem;
+    }
+
+    .left h1 {
+        font-size: 1.5rem;
+    }
+
+    .block {
+        font-size: 1rem;
+    }
+
+    .block p {
+        font-size: 0.8rem;
+        width: 33vw;
+    }
+
+    .ri-checkbox-circle-fill {
+        font-size: 1.2rem;
+    }
+
+    .right {
+        margin-top: 31vh
+    }
+
+    .fg {
+        height: 75vh;
+        width: 33vw;
+        margin-left: 3.5vw;
+        margin-top: -18vh;
+    }
+
+    .fhpage p {
+        font-size: 0.9rem;
+    }
+
+    .rt {
+        padding-right: 8rem;
+        margin-left: 56vw;
+    }
+
+    .rt ul {
+        margin-top: -4.5rem;
+        font-size: 1rem;
+    }
+
+    .rt li {
+        font-size: 0.7rem;
+        padding-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .main {
+        width: 167vw;
+        height: 16vh;
+        padding-top: 1rem;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .logo {
+        padding-left: 5vw;
+        height: 5vh;
+        width: 37vw;
+    }
+
+    .menu {
+        padding-left: 6vw;
+        padding-right: 28vw;
+        height: 3vh;
+        flex: 1;
+        font-size: 0.8rem;
+    }
+
+    .srchicon {
+        padding-left: 33rem;
+    }
+
+    .menu span {
+        margin-left: 1rem;
+    }
+
+    .para {
+        margin-left: 0vw;
+        margin-top: 2vh;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    table {
+        border-spacing: 15px;
+        margin-top: 5vh;
+        margin-left: 0vw;
+        font-size: 0.9rem;
+    }
+
+    .name {
+        height: 3vh;
+        width: 3vw;
+        margin-right: 1.5vw;
+    }
+
+    table span {
+        font-size: 0.7rem;
+    }
+
+    .chart {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    button {
+        height: 2rem;
+        width: 6rem;
+        margin-left: 45%;
+        margin-right: 45%;
+        font-size: 1rem;
+    }
+
+    .sdpage {
+        height: 80vh;
+        width: 90%;
+        margin-top: 38vh;
+    }
+
+    .tdpage {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .left {
+        padding: 3rem;
+    }
+
+    .left h1 {
+        font-size: 1.2rem;
+    }
+
+    .block {
+        font-size: 1rem;
+    }
+
+    .block p {
+        font-size: 0.8rem;
+        width: 54vw;
+    }
+
+    .ri-checkbox-circle-fill {
+        font-size: 1rem;
+    }
+
+    .right {
+        margin-top: 30vh;
+        margin-right: 20vh;
+    }
+
+    .bg {
+        height: 33vh;
+        width: 63vw;
+    }
+
+    .fg {
+        height: 70vh;
+        width: 70vw;
+        margin-left: -2.5vw;
+        margin-top: -18vh;
+    }
+
+    .fhpage p {
+        margin-top: 13vh;
+        margin-left: 4vh;
+        font-size: 0.8rem;
+        width: 12rem;
+    }
+
+    .lt {
+        margin-bottom: -9rem;
+    }
+    .lt div{
+        margin-top: -2rem;
+    }
+    .rt {
+        padding-right: 10rem;
+        margin-left: 52vw;
+    }
+    .rt ul {
+        margin: 0;
+        font-size: 1rem;
+    }
+    .rt li {
+        font-size: 0.8rem;
+        padding-top: 1.5vh;
+    }
+    .footer {
+        height: 5vh;
+        margin: 0 20%;
+    }
+}
