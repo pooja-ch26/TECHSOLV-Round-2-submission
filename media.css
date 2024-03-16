@@ -1,5 +1,9 @@
 @media only screen and (min-width:1030px) {
 
+    .main {
+        width: 100vw;
+    }
+
     .menu {
         padding-right: 2rem;
     }
@@ -15,7 +19,11 @@
     }
 
     .srchicon {
-        padding-left: 63rem;
+        padding-left: 50rem;
+    }
+
+    .menuicon {
+        display: none;
     }
 
     button {
@@ -35,6 +43,10 @@
         font-size: 0.7rem;
     }
 
+    .fhpage p {
+        width: 41vw;
+    }
+
     .rt li {
         font-size: 0.7rem;
     }
@@ -42,7 +54,7 @@
 
 @media only screen and (min-width: 770px) and (max-width:1030px) {
     .main {
-        height: 15vh;
+        width: 100vw;
     }
 
     .logo {
@@ -54,7 +66,11 @@
     }
 
     .srchicon {
-        padding-left: 55rem;
+        padding-left: 40rem;
+    }
+
+    .menuicon {
+        display: none;
     }
 
     .para {
@@ -103,6 +119,7 @@
     .fhpage p {
         margin-top: 13vh;
         margin-left: 10vh;
+        width: 38vw;
     }
 
     .rt {
@@ -116,6 +133,11 @@
 }
 
 @media only screen and (min-width: 640px) and (max-width:770px) {
+
+    .main {
+        width: 100vw;
+    }
+
     .logo {
         padding-left: 8vw;
         height: 5vh;
@@ -134,7 +156,11 @@
     }
 
     .srchicon {
-        padding-left: 42rem;
+        padding-left: 24rem;
+    }
+
+    .menuicon {
+        display: none;
     }
 
     table {
@@ -199,7 +225,7 @@
     }
 
     .fhpage p {
-        font-size: 0.9rem;
+        width: 44vw;
     }
 
     .rt {
@@ -221,62 +247,64 @@
 @media only screen and (max-width: 640px) {
 
     .main {
-        width: 167vw;
-        height: 16vh;
-        padding-top: 1rem;
+        width: 170vw;
+        height: 20vh;
     }
 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
+    .navbar div {
+        flex-direction: column;
     }
 
-    .logo {
-        padding-left: 5vw;
-        height: 5vh;
-        width: 37vw;
+    .logo img {
+        height: 3rem;
+        width: 18rem;
     }
 
     .menu {
-        padding-left: 6vw;
-        padding-right: 28vw;
-        height: 3vh;
-        flex: 1;
-        font-size: 0.8rem;
+        width: 100%;
+        height: 10vh;
+    }
+
+    .sidebar {
+        display: none;
     }
 
     .srchicon {
-        padding-left: 33rem;
+        margin-right: -43vw;
+        font-size: 15vw;
+        font-weight: 800;
     }
 
-    .menu span {
-        margin-left: 1rem;
+    .menuicon {
+        color: white;
+        padding-left: 11rem;
+        padding-top: 0.5rem;
+        font-size: 15vw;
+        font-weight: 800;
     }
 
     .para {
         margin-left: 0vw;
         margin-top: 2vh;
-        height: 10vh;
-        width: 100vw;
+        height: 6vh;
+        width: 120vw;
     }
 
     table {
-        border-spacing: 15px;
+        border-spacing: 20px;
         margin-top: 5vh;
-        margin-left: 0vw;
-        font-size: 0.9rem;
+        margin-left: -10vw;
+        font-size: 0.8rem;
     }
 
     .name {
         height: 3vh;
-        width: 3vw;
-        margin-right: 1.5vw;
+        width: 6vw;
+        margin-right: 0.5vw;
     }
 
     table span {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .chart {
@@ -293,9 +321,14 @@
     }
 
     .sdpage {
-        height: 80vh;
-        width: 90%;
-        margin-top: 38vh;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 50vh;
+    }
+
+    .sdpage img {
+        width: 100%;
+        height: 100%;
     }
 
     .tdpage {
@@ -304,70 +337,109 @@
     }
 
     .left {
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .left h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .block {
         font-size: 1rem;
+        width: 55vw;
     }
 
     .block p {
         font-size: 0.8rem;
-        width: 54vw;
+        width: 55vw;
     }
 
     .ri-checkbox-circle-fill {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        padding-right: 1rem;
+    }
+
+    .b3 {
+        padding-left: 69vw;
+        margin-top: -11vh;
+        padding-bottom: 10vh;
+    }
+
+    .b3 p {
+        width: 85vw;
     }
 
     .right {
-        margin-top: 30vh;
-        margin-right: 20vh;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 25vh;
+        margin-right: 5vw;
     }
 
     .bg {
-        height: 33vh;
-        width: 63vw;
+        height: 28vh;
+        width: 70vw;
     }
 
     .fg {
-        height: 70vh;
-        width: 70vw;
-        margin-left: -2.5vw;
-        margin-top: -18vh;
+        height: 170%;
+        width: 90%;
+        margin-left: 2.5vw;
+        margin-top: -12vh;
+    }
+
+    .l2 img {
+        height: 2rem;
+        width: 10rem;
+        padding-left: 1rem;
+        padding-top: 2vh;
     }
 
     .fhpage p {
-        margin-top: 13vh;
+        margin-top: 15vh;
         margin-left: 4vh;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         width: 12rem;
     }
 
     .lt {
         margin-bottom: -9rem;
     }
-    .lt div{
+
+    .lt div {
         margin-top: -2rem;
     }
+
     .rt {
-        padding-right: 10rem;
-        margin-left: 52vw;
+        padding-right: 4rem;
+        margin-left: 75vw;
     }
+
+    .p1 {
+        margin-right: -50vw;
+    }
+
+    .p2 {
+        margin-right: -54vw;
+    }
+
+    .p3 {
+        margin-right: 5vw;
+    }
+
     .rt ul {
         margin: 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
+
     .rt li {
-        font-size: 0.8rem;
-        padding-top: 1.5vh;
+        font-size: 0.5rem;
+        padding-top: 1vh;
+        width: 15vh;
     }
+
     .footer {
-        height: 5vh;
-        margin: 0 20%;
+        margin-left: 15%;
+        margin-top: -10vh;
     }
 }

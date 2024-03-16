@@ -29,6 +29,7 @@ header {
 .navbar {
     display: flex;
     flex-direction: row;
+
 }
 
 .logo {
@@ -45,10 +46,9 @@ header {
 }
 
 .srchicon i {
-    font-size: 3vh;
+    font-size: 6vh;
     cursor: pointer;
 }
-
 
 .menu {
     display: flex;
